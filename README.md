@@ -19,3 +19,7 @@ We assume commands come in in the form of:
   process command, item and quantiy.  
   We assume the command is first, followed by a quantity or item, followed by an item (in possibly multiple words), followed by useless stuff e.g. "add 5 apples to the list", or "add apples".  
   Note that "delete" actually removes the item from the list.  "remove" is the same as "check off", simply indicating that the item has been checked off.
+
+  The hope is to add this module as an "integration" or something to Home Assistant so that when using a "Willow" device (see https://github.com/toverainc/willow) as a substitute for an Alexa device, I can replicate the current usecase of asking Alexa to add (or subtract) items from a grocery list saved on Anylist.
+
+  If anyone has a good idea of how to integrate this into Home Assistant, please let me know.  I'm just learning that part.
